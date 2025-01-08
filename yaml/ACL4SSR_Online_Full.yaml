@@ -1,3 +1,11 @@
+proxies: 
+  - name: "直连"
+    type: direct
+    udp: true
+  - name: "UnblockMusic"
+    type: http
+    server: 192.168.10.7
+    port: 5200
 proxy-groups:
   - name: 🚀 节点选择
     type: select

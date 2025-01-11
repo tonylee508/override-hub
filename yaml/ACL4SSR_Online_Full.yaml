@@ -260,7 +260,9 @@ proxy-groups:
   - name: ChatGPT
     include-all: true
     filter: (?i)GPT|解锁
-    type: select
+    type: url-test
+    interval: 300
+    tolerance: 50
     
 rule-providers:
   LocalAreaNetwork:

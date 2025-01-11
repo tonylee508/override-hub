@@ -256,7 +256,11 @@ proxy-groups:
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
-
+  - name: ChatGPT
+    include-all: true
+    filter: (?i)GPT|解锁
+    type: select
+    
 rule-providers:
   LocalAreaNetwork:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list

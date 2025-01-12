@@ -187,6 +187,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
+      - unblockneteasemusic
       - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
